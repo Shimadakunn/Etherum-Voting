@@ -5,7 +5,7 @@ He adds the candidates one by one and creates a whitelist for addresses that are
 The whitelist works as a merkle tree.\
 The voting is managed by a smart contract (contracts/Vote.sol).
 
-Features of the website are dependent on the addresses connected.\
+Features of the website are dependent on the address connected.\
 Owner has possibilities to add candidates and see results.\
 Voters has possibilties to vote.\
 Others sees nothing.
