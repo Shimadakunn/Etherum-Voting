@@ -1,14 +1,16 @@
 # Decentralized online voting system using Etherum Virtual Machine with Smart contract
 
-I created a decentralized voting website which allows the owner to create a vote. \
-He adds the candidates one by one and creates a whitelist for addresses that are allowed to vote (scripts/whitelist.json file). \
-The whitelist works as a merkle tree.\
-The voting is managed by a smart contract (contracts/Vote.sol).
+## Concept
+I created a **decentralized voting website** which allows the owner to create a vote. \
+He adds the candidates one by one and creates a **whitelist for addresses** that are allowed to vote. *(scripts/whitelist.json)* \
+The whitelist works as a **merkle tree.**\
+The voting is managed by a **smart contract.** *(contracts/Vote.sol)*
 
-Features of the website are dependent on the address connected.\
-Owner has possibilities to add candidates and see results.\
-Voters has possibility to vote.\
-Others sees nothing.
+## Features
+Features of the website are **dependent on the address connected.**
+ - Owner has possibilities to add candidates and see results.
+ - Voters has possibility to vote.
+ - Others sees nothing.
 
 ## Demo
 
